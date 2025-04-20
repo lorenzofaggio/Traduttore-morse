@@ -44,6 +44,23 @@ struct ContentView: View {
                     .replacingOccurrences(of: "–", with: "-")
                     .replacingOccurrences(of: "--.-.", with: "-.-.")
                     .replacingOccurrences(of: "-.-", with: "-.-")
+                    .replacingOccurrences(of: "bb", with: "b")
+                    .replacingOccurrences(of: "cc", with: "c")
+                    .replacingOccurrences(of: "dd", with: "d")
+                    .replacingOccurrences(of: "ff", with: "f")
+                    .replacingOccurrences(of: "gg", with: "g")
+                    .replacingOccurrences(of: "ll", with: "l")
+                    .replacingOccurrences(of: "mm", with: "m")
+                    .replacingOccurrences(of: "nn", with: "n")
+                    .replacingOccurrences(of: "pp", with: "p")
+                    .replacingOccurrences(of: "qq", with: "q")
+                    .replacingOccurrences(of: "rr", with: "r")
+                    .replacingOccurrences(of: "ss", with: "s")
+                    .replacingOccurrences(of: "tt", with: "t")
+                    .replacingOccurrences(of: "vv", with: "v")
+                    .replacingOccurrences(of: "zz", with: "z")
+                
+                
                 let caratteriMorse = CharacterSet(charactersIn: ".-/")
                 if inputNormalizzato.trimmingCharacters(in: .whitespacesAndNewlines).unicodeScalars.allSatisfy({ caratteriMorse.contains($0) }) {
                     morseScritto = traduciMorse(inputNormalizzato)
