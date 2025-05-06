@@ -59,6 +59,7 @@ struct ContentView: View {
                     .replacingOccurrences(of: "tt", with: "t")
                     .replacingOccurrences(of: "vv", with: "v")
                     .replacingOccurrences(of: "zz", with: "z")
+                    .replacingOccurrences(of: "cc", with: "c")
                 
                 
                 let caratteriMorse = CharacterSet(charactersIn: ".-/")

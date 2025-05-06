@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Nuovo progetto.png",
+      "filename" : "icona iPhone white.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,7 +13,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "Nuovo progetto 1.png",
+      "filename" : "Nuovo progetto.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -25,7 +25,6 @@
           "value" : "tinted"
         }
       ],
-      "filename" : "Nuovo progetto 2.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
