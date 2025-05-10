@@ -29,7 +29,7 @@ struct ContentView: View {
                 .fontWeight(.bold)
                 .padding(.top)
             
-            TextField("Inserisci una frase", text: $testo)
+            TextField("Inserisci una frase o una parola", text: $testo)
                 .padding()
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
